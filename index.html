@@ -29,9 +29,9 @@
     <!--header-section-start -->
 
     <header class="position-fixed top-0 w-100 z-2 bg-white">
-        <div class="container-md px-md-0">
+        <div class="container-lg px-lg-0">
             <div class="d-flex justify-content-between align-items-center ">
-                <div class="pt-3">
+                <div class="pt-3 ">
                     <a href="#" class="text-decoration-none bg-warning p-2 px-4  d-inline-block rounded-3 me-2">
                         <img src="image/one.png" class="img-fluid">
                         <img src="image/two.png" class="" width="50px">
@@ -41,6 +41,7 @@
                         <img src="image/four.png" class="" width="40px">
                     </a>
                 </div>
+                
                 <div class="pe-5 d-md-block d-none">
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                         style="background-color:rgba(0,0,0,0.00)">
@@ -66,22 +67,26 @@
             <!-- navbar-start -->
 
             <nav class="navbar navbar-expand-md pt-3 border-bottom pb-2">
-                <div class="d-flex justify-content-between ">
+                <div class="d-flex justify-content-between  flex-grow-1 flex-md-grow-0  ">
+                    <div class=" ">
                     <form class="d-md-none" role="search">
                         <div class="input-group  me-md-3 border border-primary border-2 rounded-3  overflow-hidden ">
                             <a href="#" class="input-group-text text-decoration-none bg-white rounded-0 "
                                 id="basic-addon2"><i class="fa-solid fa-magnifying-glass text-secondary fs-5 ps-1"></i></a>
-                            <input class="form-control rounded-0 border-start-0  pe-md-5" type="search"
+                            <input class="form-control rounded-0 border-start-0  pe-5" type="search"
                                 placeholder="Search for Products , Brands and More " aria-label="Search" />
                         </div>
 
 
                     </form>
+                    </div>
+                    <div class="">
                     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+                    </div>
                     </div>
 
                     <div class="collapse navbar-collapse row" id="navbarSupportedContent">
@@ -89,10 +94,10 @@
                             <form class="d-flex" role="search">
                                 <div
                                     class="input-group  me-3 border border-primary border-2  rounded-4 w-100 overflow-hidden ">
-                                    <a href="#" class="input-group-text text-decoration-none bg-white rounded-0 "
+                                    <a href="#" class="input-group-text text-decoration-none ps-3 bg-white rounded-0 "
                                         id="basic-addon2"><i
                                             class="fa-solid fa-magnifying-glass text-secondary fs-5"></i></a>
-                                    <input class="form-control rounded-0 border-start-0  pe-md-5" type="search"
+                                    <input class="form-control rounded-0 border-start-0 ps-0  pe-md-5" type="search"
                                         placeholder="Search for Products , Brands and More " aria-label="Search" />
                                 </div>
 
@@ -109,74 +114,76 @@
                                         <img src="image/five.svg" class="img-fluid">
                                         Login
                                     </a>
-                                    <ul class="dropdown-menu ps-3 pt-3 shadow rounded-3 pe-4 ">
-                                        <div class="d-flex justify-content-between ps-3"><a href="#" class="text-decoration-none text-dark pe-5 text-nowrap fs-5">New Customer ?</a> 
-                                        <a href="#" class="text-decoration-none text-primary pe-3 text-nowrap fw-semibold fs-5"><span>Sign Up</span></a> </div>
-                                        <li class="pb-2 pt-1"><a class="dropdown-item " href="#"><img src="image/hundred.svg" class="img-fluid"><span>My Profile</span></a></li>
-                                        <li class="pb-2 pt-1"><a class="dropdown-item" href="#">
-                                            <img src="image/one hundred.svg" class="img-fluid"><span>Flipkart Plus Zone</span>
+                                    <ul class="dropdown-menu dropdown-menu-end  ps-3 pt-3 shadow rounded-4 overflow-auto  ">
+                                        <div class="d-flex justify-content-between ps-3 pe-lg-2 pt-2"><a href="#" class="text-decoration-none text-dark pe-5 text-nowrap ">New customer ?</a> 
+                                        <a href="#" class="text-decoration-none text-primary pe-3 text-nowrap fw-bold "><span>Sign Up</span></a> </div>
+                                        <li class="pb-2 pt-1"><a class="dropdown-item " href="#"><img src="image/hundred.svg" class="img-fluid"><span class="ps-2">My Profile</span></a></li>
+                                        <li class="pb-2 "><a class="dropdown-item" href="#">
+                                            <img src="image/one hundred.svg" class="img-fluid"><span class="ps-2">Flipkart Plus Zone</span>
                                         </a></li>
                                        
-                                        <li class="pb-2 pt-1"><a class="dropdown-item" href="#">
+                                        <li class="pb-2 "><a class="dropdown-item" href="#">
                                             <img src="image/one hundred two.svg" class="img-fluid">
-                                           <span>Orders</span>
+                                           <span class="ps-2">Orders</span>
                                         </a></li>
-                                          <li class="pb-2 pt-1"><a class="dropdown-item" href="#">
+                                          <li class="pb-2 "><a class="dropdown-item" href="#">
                                             <img src="image/one hundred three.svg" class="img-fluid">
-                                           <span>Whishlist</span>
+                                           <span class="ps-2">Whishlist</span>
                                         </a></li>
-                                         <li class="pb-2 pt-1"><a class="dropdown-item" href="#">
+                                         <li class="pb-2 "><a class="dropdown-item" href="#">
                                             <img src="image/one hundred four.svg" class="img-fluid">
-                                           <span>Become a Seller</span>
+                                           <span class="ps-2">Become a Seller</span>
                                         </a></li>
-                                         <li class="pb-2 pt-1"><a class="dropdown-item" href="#">
+                                         <li class="pb-2 "><a class="dropdown-item" href="#">
                                             <img src="image/one hundred five.svg" class="img-fluid">
-                                           <span>Rewards</span>
+                                           <span class="ps-2">Rewards</span>
                                         </a></li>
-                                         <li class="pb-2 pt-1"><a class="dropdown-item" href="#">
+                                         <li class="pb-2 "><a class="dropdown-item" href="#">
                                             <img src="image/one hundred five.svg" class="img-fluid">
-                                           <span>Gift Cards</span>
+                                           <span class="ps-2">Gift Cards</span>
                                         </a></li>
-                                         <li class="pb-2 pt-1"><a class="dropdown-item" href="#">
+                                         <li class="pb-2 "><a class="dropdown-item" href="#">
                                             <img src="image/one hundredsix.svg" class="img-fluid">
-                                           <span>Notification Preferences</span>
+                                           <span class="ps-2">Notification Preferences</span>
                                         </a></li>
-                                         <li class="pb-2 pt-1"><a class="dropdown-item" href="#">
+                                         <li class="pb-2 "><a class="dropdown-item" href="#">
                                             <img src="image/one hundred seven.svg" class="img-fluid">
-                                           <span>24x7 Customer Care</span>
+                                           <span class="ps-2">24x7 Customer Care</span>
                                         </a></li>
                                        
-                                         <li class="pb-2 pt-1"><a class="dropdown-item" href="#">
+                                         <li class="pb-2 "><a class="dropdown-item" href="#">
                                             <img src="image/one hundred nine.svg" class="img-fluid">
-                                           <span>Advertise</span>
+                                           <span class="ps-2">Advertise</span>
                                         </a></li>
-                                          <li class="pb-2 pt-1"><a class="dropdown-item" href="#">
+                                          <li class="pb-2 "><a class="dropdown-item" href="#">
                                             <img src="image/one hundredten.svg" class="img-fluid">
-                                           <span>Download App</span>
+                                           <span class="ps-2">Download App</span>
                                         </a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown ps-md-0 ps-4">
-                                    <a class="nav-link dropdown-toggle " href="#" role="button"
+                                <li class="nav-item dropdown ps-md-0 ps-4 ">
+                                    
+                                    <a class="nav-link dropdown-toggle  " href="#" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         More
                                     </a>
-                                    <ul class="dropdown-menu rounded-3 py-3 pe-lg-5 me-4 me-lg-0 pt-2 shadow ">
-                                        <h6 class="fw-bold ps-4">More</h6>
+                                    <ul class="dropdown-menu dropdown-menu-end rounded-4 py-3 ps-3 pe-5  pt-2 shadow ">
+                                        <h6 class="fw-bold ps-4 pt-2">More</h6>
                                         <li class="pb-2"><a class="dropdown-item " href="#">
-                                            <img src="image/ninetysix.svg" class="img-fluid"> Become a Seller</a></li>
+                                            <img src="image/ninetysix.svg" class="img-fluid"> <span class="ps-2">Become a Seller</span></a></li>
                                         <li class="pb-2"><a class="dropdown-item " href="#">
                                             <img src="image/ninetyseven.svg" class="img-fluid">
-                                            Notification Setting</a></li>
+                                            <span class="ps-2">Notification Setting</span></a></li>
                                        
                                         <li class="pb-2"><a class="dropdown-item " href="#">
                                             <img src="image/ninetynine.svg" class="img-fluid">
-                                            24x7 Customer Care</a></li>
+                                            <span class="ps-2">24x7 Customer Care</span></a></li>
                                              <li class="pb-2"><a class="dropdown-item " href="#">
                                             <img src="image/ninetyeight.svg" class="img-fluid">
-                                            Advertise on Flipkart</a></li>
+                                            <span class="ps-2">Advertise on Flipkart</span></a></li>
                                     </ul>
-                                </li>
+                                    
+                                
                                 <li class="nav-item">
                                     <a href="#" class="nav-link  ">
                                         <img src="image/six.svg" class="img-fluid">
@@ -292,7 +299,7 @@
 
             <section class="two pt-4 mt-2">
                 <a href="#" class="text-decoration-none ">
-                    <div class=" d-inline-flex gap-3  flex-wrap ">
+                    <div class=" d-inline-flex gap-3 justify-content-md-start justify-content-center flex-wrap ">
                         <div class="">
                             <img src="image/sixteen.png" class="img-fluid">
                             <small class="mx-auto text-center d-block text-dark">Fashion</small>
@@ -329,7 +336,7 @@
                     </div>
                 </a>
                 <a href="#" class="text-decoration-none">
-                    <div class=" d-inline-flex gap-3 flex-wrap pt-2">
+                    <div class=" d-inline-flex gap-3 flex-wrap justify-content-md-start justify-content-center pt-2">
                         <div class="">
                             <img src="image/twentyfour.jpg" class="img-fluid">
                             <small class="mx-auto text-center d-block text-dark">Mobiles</small>
@@ -374,19 +381,23 @@
             <section class="three bg-light rounded-4 pt-3 ps-3 pb-3 mt-3">
                 <div>
                     <h5 class="fw-bold pb-2">Still looking for these?</h5>
-                    <a href="#" class="text-decoration-none d-flex flex-wrap gap-3 ">
-                        <div class="border border-3 rounded-3 overflow-hidden">
-                            <img src="image/thirtytwo.webp" class="img-fluid ">
+                    <a href="#" class="text-decoration-none row gx-3 ">
+                        <div class="col-xl-2 col-md-3 col-4">
+                        <div class="border border-white border-3 rounded-3 overflow-hidden card h-100 ">
+                            <img src="image/thirtytwo.webp" class="img-fluid card-img-top ">
                             <p class="text-secondary fw-medium m-0 pt-1 ps-1">Mobiles</p>
                         </div>
-                        <div class="border border-3 rounded-3">
-                            <img src="image/thirtythree.webp" class="img-fluid px-2 ">
+                        </div>
+                        <div class="col-xl-2 col-md-3 col-4">
+                        <div class="border border-3 border-white rounded-3 card h-100">
+                            <img src="image/thirtythree.webp" class="img-fluid card-img-top ">
                             <p class="text-secondary fw-medium m-0 pt-1 ps-1">Plain Cases & Covers</p>
-                        </div>
-                        <div class="border border-3 rounded-3">
-                            <img src="image/thirtyfour.webp" class="img-fluid px-4 ">
+                        </div></div>
+                        <div class="col-xl-2 col-md-3 col-4">
+                        <div class="border border-3 border-white rounded-3 card h-100 ">
+                            <img src="image/thirtyfour.webp" class="img-fluid  card-img-top px-3">
                             <p class="text-secondary fw-medium m-0 pt-1 ps-1">Women's Ethnic Sets</p>
-                        </div>
+                        </div></div>
                     </a>
 
                 </div>
@@ -430,11 +441,11 @@
                             </svg></span>
                     </div></a>
 
-                    <div class="row pt-3 gx-lg-4 ">
+                    <div class="row pt-3 gx-lg-4 text-center text-md-start gy-3 ">
                         <div class="col-xl-2 col-sm-4 col-12">
                             <a href="#" class="text-decoration-none">
                                 <div class="position-relative d-inline-block">
-                                    <img src="image/fourty.jpeg" class="object-fit-cover " width="180px">
+                                    <img src="image/fourty.jpeg" class="object-fit-cover " width="175px">
                                     <span
                                         class="position-absolute bottom-0 start-0 bg-white p-2 py-0 rounded-2 m-2 text-dark fw-semibold">4.3<svg
                                             width="12" height="12" viewBox="0 0 24 24" fill="#0E772D"
@@ -445,10 +456,10 @@
                                                 stroke-linejoin="round"></path>
                                         </svg></span>
                                 </div>
-                                <p class="text-dark pt-2 m-0 text-truncate w-75 d-inline-block  "><small
+                                <p class="text-dark pt-2 m-0 text-truncate lh-1 w-75 d-inline-block mb-0 "><small
                                         class="d-inline-block">REDMI Note 14 SE 5G (Crimson Art, 128 GB) 6 GB
-                                        RAM</small></p><br>
-                                <span class="text-dark fw-semibold">₹14,999</span>
+                                        RAM</small></p>
+                                <span class="text-dark fw-semibold ">₹14,999</span>
                                 <span class="text-secondary"><del>19,999</del></span>
                             </a>
                         </div>
@@ -466,7 +477,7 @@
                                                 stroke-linejoin="round"></path>
                                         </svg></span>
                                 </div>
-                                <p class="text-dark pt-2 m-0  w-75 text-truncate"><small>Samsung Galaxy A35 5G (Awesome
+                                <p class="text-dark pt-2 m-0 lh-1  w-75 text-truncate mx-auto"><small>Samsung Galaxy A35 5G (Awesome
                                         Navy, 128 GB) 8 GB RAM</small></p>
                                 <span class="text-dark fw-semibold">₹21,999</span>
                                 <span class="text-secondary"><del>28,999</del></span>
@@ -475,7 +486,7 @@
                         <div class="col-xl-2 col-sm-4 col-12">
                             <a href="#" class="text-decoration-none">
                                 <div class="position-relative d-inline-block">
-                                    <img src="image/fourtysix.jpeg" class="object-fit-cover " width="180px">
+                                    <img src="image/fourtysix.jpeg" class="object-fit-cover " width="184px">
                                     <span
                                         class="position-absolute bottom-0 start-0 bg-white p-2 py-0 rounded-2 m-2 text-dark fw-semibold">4.3<svg
                                             width="12" height="12" viewBox="0 0 24 24" fill="#0E772D"
@@ -486,7 +497,7 @@
                                                 stroke-linejoin="round"></path>
                                         </svg></span>
                                 </div>
-                                <p class="text-dark pt-2 m-0  w-75 d-inline-block text-truncate"><small>REDMI Note 14
+                                <p class="text-dark pt-2 m-0 lh-1  w-75 d-inline-block text-truncate"><small>REDMI Note 14
                                         Pro 5G (Phantom Purple, 128 GB) 8 GB RAM</small></p><br>
                                 <span class="text-dark fw-semibold">₹14,999</span>
                                 <span class="text-secondary"><del>20,999</del></span>
@@ -506,7 +517,7 @@
                                                 stroke-linejoin="round"></path>
                                         </svg></span>
                                 </div>
-                                <p class="text-dark pt-2 m-0  w-75 d-inline-block text-truncate"><small>Samsung Galaxy
+                                <p class="text-dark pt-2 m-0 lh-1 w-75 d-inline-block text-truncate"><small>Samsung Galaxy
                                         F06 5G (Lit Violet, 128 GB) 6 GB RAM</small></p><br>
                                 <span class="text-dark fw-semibold">₹10,999</span>
                                 <span class="text-secondary"><del>15,999</del></span>
@@ -526,13 +537,13 @@
                                                 stroke-linejoin="round"></path>
                                         </svg></span>
                                 </div>
-                                <p class="text-dark pt-2 m-0  w-75 d-inline-block text-truncate"><small>REDMI 14C 5G
+                                <p class="text-dark pt-2 m-0 lh-1 w-75 d-inline-block text-truncate"><small>REDMI 14C 5G
                                         (Starlight Blue, 128 GB) 6 GB RAM</small></p><br>
                                 <span class="text-dark fw-semibold">₹11,999</span>
                                 <span class="text-secondary"><del>13,999</del></span>
                             </a>
                         </div>
-                        <div class="col-xl-2 col-sm-4 col-6">
+                        <div class="col-xl-2 col-sm-4 col-12 ">
                             <a href="#" class="text-decoration-none">
                                 <div class="position-relative d-inline-block">
                                     <img src="image/fourtynine.webp" class="object-fit-cover " width="189px">
@@ -546,7 +557,7 @@
                                                 stroke-linejoin="round"></path>
                                         </svg></span>
                                 </div>
-                                <p class="text-dark pt-2 m-0  w-75 d-inline-block text-truncate"><small>Google Pixel 9A
+                                <p class="text-dark pt-2 m-0 lh-1 w-75 d-inline-block text-truncate"><small>Google Pixel 9A
                                         (Porcelain, 256 GB) 8 GB RAM</small></p><br>
                                 <span class="text-dark fw-semibold">₹39,999</span>
                                 <span class="text-secondary"><del>42,999</del></span>
@@ -570,16 +581,21 @@
                     <a href="#" class="text-decoration-none">
                         <img src="image/fifty.webp" class="img-fluid rounded-4">
                     </a>
-                    <div class="d-flex flex-wrap pt-4 gap-4">
+                    <div class="row pt-4 ">
+                        <div class="col-md-2 col-4">
                         <a href="#" class="text-decoration-none">
-                            <img src="image/fiftyone.webp" class=" rounded-3" width="200px">
+                            <img src="image/fiftyone.webp" class="img-fluid rounded-3" >
                         </a>
+                        </div>
+                        <div class="col-md-2 col-4">
                         <a href="#" class="text-decoration-none">
-                            <img src="image/fiftytwo.webp" class="rounded-3" width="200px">
-                        </a>
+                            <img src="image/fiftytwo.webp" class=" img-fluid rounded-3" >
+                        </a></div>
+                        <div class="col-md-2 col-4">
                         <a href="#" class="text-decoration-none">
-                            <img src="image/fiftythree.webp" class="rounded-3" width="200px">
+                            <img src="image/fiftythree.webp" class=" img-fluid rounded-3" >
                         </a>
+                        </div>
                     </div>
                 </div>
                 <a href="#" class="text-decoration-none">
@@ -594,7 +610,7 @@
                         </svg></span>
                 </div></a>
 
-                <div class="row pt-3 gx-md-5 ">
+                <div class="row pt-3 gx-lg-5 text-start-md text-center ">
                     <div class="col-xl-2 col-sm-4 col-12">
                         <a href="#" class="text-decoration-none">
                             <div class="position-relative d-inline-block">
@@ -732,8 +748,8 @@
             <!-- section-six-start-->
 
             <section class="six mt-4  pt-4">
-                <div class="bg-danger rounded-4 px-3 pb-2">
-                    <div class="d-flex pt-3  justify-content-between pb-3">
+                <div class="bg-danger rounded-4 px-lg-2 px-4 pb-3">
+                    <div class="d-flex pt-3  justify-content-between pb-3 px-2">
                         <h5 class="text-white">Mobiles To Check Out</h5>
                        <span class="bg-white px-3  rounded-4 h-25 "><a href="#" class="text-decoration-none d-inline-flex align-items-center">  <svg width="17" 
                                 height="17" viewBox="0 0 16 16" fill="none">
@@ -745,41 +761,41 @@
                     </div>
                     <div class="row bg-white rounded-3 border  pb-2 align-items-center border-5  mx-lg-1 gy-3">
                         <div class="col-md-3 col-6">
-                            <a href="#" class="text-decoration-none">
+                            <a href="#" class="text-decoration-none card h-100 border-0">
                                 <div class="bg-light rounded">
-                                    <img src="image/sixtyfive.jpeg" class="img-fluid mx-auto d-block">
+                                    <img src="image/sixtyfive.jpeg" class="img-fluid card-img-top">
                                 </div>
-                                <p class=" fw-medium text-dark m-0 "><small>Redmi</small></p>
+                                <p class=" fw-medium text-dark m-0 card-title "><small>Redmi</small></p>
                                 <p class="text-dark fw-semibold m-0  lh-1">Best Selling Products</p>
                             </a>
 
                         </div>
                         <div class="col-md-3 col-6">
-                            <a href="#" class="text-decoration-none">
+                            <a href="#" class="text-decoration-none card h-100 border-0">
                                 <div class="bg-light rounded">
-                                    <img src="image/sixtysix.webp" class="img-fluid mx-auto d-block">
+                                    <img src="image/sixtysix.webp" class="img-fluid card-img-top">
                                 </div>
-                                <p class=" fw-medium text-dark m-0 "><small>Top Rated</small></p>
+                                <p class=" fw-medium text-dark m-0 card-title "><small>Top Rated</small></p>
                                 <p class="text-dark fw-semibold m-0  lh-1">4 Stars and Above</p>
                             </a>
 
                         </div>
                         <div class="col-md-3 col-6">
-                            <a href="#" class="text-decoration-none">
+                            <a href="#" class="text-decoration-none card h-100 border-0">
                                 <div class="bg-light rounded">
-                                    <img src="image/sixtyseven.webp" class="img-fluid mx-auto d-block">
+                                    <img src="image/sixtyseven.webp" class="img-fluid card-img-top">
                                 </div>
-                                <p class=" fw-medium text-dark m-0 "><small>Top Quality</small></p>
+                                <p class=" fw-medium text-dark m-0 card-title "><small>Top Quality</small></p>
                                 <p class="text-dark fw-semibold m-0  lh-1">Plus - Products</p>
                             </a>
 
                         </div>
                         <div class="col-md-3 col-6">
-                            <a href="#" class="text-decoration-none">
+                            <a href="#" class="text-decoration-none card h-100 border-0">
                                 <div class="bg-light rounded">
-                                    <img src="image/sixtyeight.webp" class="img-fluid mx-auto d-block">
+                                    <img src="image/sixtyeight.webp" class="img-fluid card-img-top px-3">
                                 </div>
-                                <p class=" fw-medium text-dark m-0 "><small>Top Collection</small></p>
+                                <p class=" fw-medium text-dark m-0 card-title"><small>Top Collection</small></p>
                                 <p class="text-dark fw-semibold m-0  lh-1">Best Selling Products</p>
                             </a>
 
@@ -813,45 +829,45 @@
 
             <section class="seven  pt-4">
                 <div class="bg-danger rounded-4 pb-3 ">
-                    <div class=" pt-3 px-3 ">
-                        <h5 class="text-white pb-2">On everybody's list</h5>
-                        <div class="row bg-white rounded-3 border  pb-2 align-items-center border-5  mx-1">
+                    <div class=" pt-3 px-2 ">
+                        <h5 class="text-white pb-3 ps-2">On everybody's list</h5>
+                        <div class="row bg-white rounded-3 border gy-3  pb-2 align-items-center border-5  mx-1">
                             <div class="col-md-3 col-6">
-                                <a href="#" class="text-decoration-none">
+                                <a href="#" class="text-decoration-none card h-100 border-0">
                                     <div class="bg-light rounded">
-                                        <img src="image/sixtyone.webp" class="img-fluid mx-auto d-block">
+                                        <img src="image/sixtyone.webp" class="img-fluid card-img-top">
                                     </div>
-                                    <p class=" fw-medium text-dark m-0 "><small>Men's shoes</small></p>
+                                    <p class=" fw-medium text-dark m-0 card-title "><small>Men's shoes</small></p>
                                     <p class="text-dark fw-semibold m-0  lh-1">Min 50% Off</p>
                                 </a>
 
                             </div>
                             <div class="col-md-3 col-6">
-                                <a href="#" class="text-decoration-none">
+                                <a href="#" class="text-decoration-none card h-100 border-0">
                                     <div class="bg-light rounded">
-                                        <img src="image/sixtytwo.png" class="img-fluid mx-auto d-block">
+                                        <img src="image/sixtytwo.png" class="img-fluid px-lg-4 px-3 card-img-top">
                                     </div>
-                                    <p class=" fw-medium text-dark m-0 "><small>Get it now</small></p>
+                                    <p class=" fw-medium text-dark m-0  card-title"><small>Get it now</small></p>
                                     <p class="text-dark fw-semibold m-0  lh-1">From ₹95</p>
                                 </a>
 
                             </div>
                             <div class="col-md-3 col-6">
-                                <a href="#" class="text-decoration-none">
+                                <a href="#" class="text-decoration-none card h-100 border-0">
                                     <div class="bg-light rounded">
-                                        <img src="image/sixtythree.jpeg" class="img-fluid mx-auto d-block">
+                                        <img src="image/sixtythree.jpeg" class="img-fluid card-img-top">
                                     </div>
-                                    <p class=" fw-medium text-dark m-0 "><small>Loose Fits, Baggy & more</small></p>
+                                    <p class=" fw-medium text-dark m-0 text-truncate card-title "><small>Loose Fits, Baggy & more</small></p>
                                     <p class="text-dark fw-semibold m-0  lh-1">Under ₹299</p>
                                 </a>
 
                             </div>
                             <div class="col-md-3 col-6">
-                                <a href="#" class="text-decoration-none">
+                                <a href="#" class="text-decoration-none card h-100 border-0">
                                     <div class="bg-light rounded">
-                                        <img src="image/sixtyfour.jpeg" class="img-fluid mx-auto d-block">
+                                        <img src="image/sixtyfour.jpeg" class="img-fluid card-img-top">
                                     </div>
-                                    <p class=" fw-medium text-dark m-0 "><small>Breezy, checked & more</small></p>
+                                    <p class=" fw-medium text-dark m-0  card-title"><small>Breezy, checked & more</small></p>
                                     <p class="text-dark fw-semibold m-0  lh-1">Under ₹299</p>
                                 </a>
 
@@ -868,14 +884,14 @@
 
             <!--section-eight-start-->
 
-            <section class="pt-5">
+            <section class=" eight pt-5">
 
                 <div class="bg-white ">
-                    <div class="row gy-4">
+                    <div class="row ">
                         <div class="col-lg-3 col-md-4 bg-light ">
-                            <a href="#" class="text-decoration-none ">
-                                <div class="position-relative ">
-                                    <img src="image/seventyfive.webp" class="  img-fluid">
+                            <a href="#" class="text-decoration-none card border-0 h-100 ">
+                                <div class="position-relative  ">
+                                    <img src="image/seventyfive.webp" class=" card-img-top img-fluid">
                                     <span
                                         class="position-absolute start-0 bottom-0 mb-1 ms-2 bg-white px-1 d-block rounded-3 text-dark fw-semibold">4.4
                                         <svg width="12" height="12" viewBox="0 0 24 24" fill="#0E772D"
@@ -886,8 +902,8 @@
                                                 stroke-linejoin="round"></path>
                                         </svg>(702)</span>
                                 </div>
-                                <div class="bg-white">
-                                <p class="p-0 pt-1 m-0 text-dark"><small>One Plus<span class="text-secondary">15R 5G
+                                <div class="bg-white card-body">
+                                <p class="p-0 pt-1 m-0 text-dark card-title"><small>One Plus<span class="text-secondary">15R 5G
                                             (Mint Breeze, 512 GB)</span></small></p>
                                 <del class="text-secondary fw-medium">59,999</del> <span
                                     class="text-dark fw-semibold">₹53,710</span>
@@ -897,9 +913,9 @@
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-4 bg-light ">
-                            <a href="#" class="text-decoration-none">
-                                <div class="position-relative">
-                                    <img src="image/seventysix.webp" class=" " width="291px">
+                            <a href="#" class="text-decoration-none card border-0 h-100">
+                                <div class="position-relative ">
+                                    <img src="image/seventysix.webp" class="card-img-top img-fluid" >
                                     <span
                                         class="position-absolute start-0 bottom-0 bg-white px-1 mb-1 ms-1 d-block rounded-3 text-dark fw-semibold">4.2
                                         <svg width="12" height="12" viewBox="0 0 24 24" fill="#0E772D"
@@ -910,8 +926,8 @@
                                                 stroke-linejoin="round"></path>
                                         </svg>(118)</span>
                                 </div>
-                                <div class="bg-white">
-                                <p class="p-0 m-0 pt-1 text-dark text-truncate fw-semibold"><small>Balkans<span
+                                <div class="bg-white card-body">
+                                <p class="p-0 m-0 pt-1 text-dark text-truncate fw-semibold card-title"><small>Balkans<span
                                             class="text-secondary text-truncate"> Flip Cover for POCO C75 5G, Redmi
                                             14</span></small></p>
                                 <del class="text-secondary fw-medium">999</del> <span
@@ -922,9 +938,9 @@
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-4 bg-light ">
-                            <a href="#" class="text-decoration-none">
-                                <div class="position-relative">
-                                    <img src="image/seventyseven.webp" class="  img-fluid">
+                            <a href="#" class="text-decoration-none card border-0 h-100">
+                                <div class="position-relative ">
+                                    <img src="image/seventyseven.webp" class=" card-img-top img-fluid">
                                     <span
                                         class="position-absolute start-0  mb-1 ms-1 bottom-0 bg-white px-1 d-block rounded-3 text-dark fw-semibold">5<svg
                                             width="12" height="12" viewBox="0 0 24 24" fill="#0E772D"
@@ -935,8 +951,8 @@
                                                 stroke-linejoin="round"></path>
                                         </svg>(4)</span>
                                 </div>
-                                <div class="bg-white">
-                                <p class="p-0 m-0 text-dark text-truncate pt-1 fw-semibold"><small>Memia<span
+                                <div class="bg-white card-body pt-0">
+                                <p class="p-0 m-0 text-dark text-truncate pt-1 fw-semibold card-title"><small>Memia<span
                                             class="text-secondary text-truncate"> Flip Cover for Redmi A4 5G / Poco C75
                                             5G</span></small></p>
                                 <del class="text-secondary fw-medium">899</del> <span
@@ -947,9 +963,9 @@
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-4 bg-light ">
-                            <a href="#" class="text-decoration-none">
-                                <div class="position-relative">
-                                    <img src="image/seventyeight.webp" class=" img-fluid w-50">
+                            <a href="#" class="text-decoration-none card border-0 h-100">
+                                <div class="position-relative ">
+                                    <img src="image/seventyeight.webp" class="card-img-top img-fluid w-50 mx-auto d-block">
                                     <span
                                         class="position-absolute start-0 bottom-0 bg-white px-1 ms-1 mb-1 d-block rounded-3 text-dark fw-semibold">4.4<svg
                                             width="12" height="12" viewBox="0 0 24 24" fill="#0E772D"
@@ -960,8 +976,8 @@
                                                 stroke-linejoin="round"></path>
                                         </svg>(36)</span>
                                 </div>
-                                <div class="bg-white">
-                                <p class="p-0 m-0 text-dark pt-1 text-truncate fw-semibold"><small>OnePlus<span
+                                <div class="bg-white card-body pt-0">
+                                <p class="p-0 m-0 text-dark pt-1 text-truncate fw-semibold card-title"><small>OnePlus<span
                                             class="text-secondary text-truncate"> 8 Pro (Glacial Green, 128
                                             GB)</span></small></p>
                                 <del class="text-secondary fw-medium">54,999</del> <span
@@ -972,9 +988,9 @@
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-4 bg-light">
-                            <a href="#" class="text-decoration-none">
-                                <div class="position-relative">
-                                    <img src="image/seventynine.webp" class=" img-fluid rounded-3">
+                            <a href="#" class="text-decoration-none card border-0 h-100">
+                                <div class="position-relative ">
+                                    <img src="image/seventynine.webp" class=" card-img-top img-fluid rounded-3">
                                     <span
                                         class="position-absolute start-0 ms-1 mb-1 bottom-0 bg-white px-1 d-block rounded-3 text-dark fw-semibold">4.2<svg
                                             width="12" height="12" viewBox="0 0 24 24" fill="#0E772D"
@@ -985,8 +1001,8 @@
                                                 stroke-linejoin="round"></path>
                                         </svg>(21,704)</span>
                                 </div>
-                                <div class="bg-white">
-                                <p class="p-0 m-0 pt-1 text-dark text-truncate fw-semibold"><small>CAMPUS<span
+                                <div class="bg-white card-body pt-0">
+                                <p class="p-0 m-0 pt-1 text-dark text-truncate fw-semibold card-title"><small>CAMPUS<span
                                             class="text-secondary text-truncate"> VIBGYOR Walking Shoes For
                                             Men</span></small></p>
                                 <del class="text-secondary fw-medium">1,399</del> <span
@@ -996,9 +1012,9 @@
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-4 bg-light ">
-                            <a href="#" class="text-decoration-none">
-                                <div class="position-relative">
-                                    <img src="image/eighty.webp" class=" img-fluid rounded-3">
+                            <a href="#" class="text-decoration-none card border-0 h-100">
+                                <div class="position-relative ">
+                                    <img src="image/eighty.webp" class="card-img-top img-fluid rounded-3">
                                     <span
                                         class="position-absolute start-0 ms-1 mb-1 bottom-0 bg-white px-1 d-block rounded-3 text-dark fw-semibold">4.1<svg
                                             width="12" height="12" viewBox="0 0 24 24" fill="#0E772D"
@@ -1009,8 +1025,8 @@
                                                 stroke-linejoin="round"></path>
                                         </svg>(203)</span>
                                 </div>
-                                <div class="bg-white">
-                                <p class="p-0 m-0 pt-1 text-dark text-truncate fw-semibold"><small>Balkans<span
+                                <div class="bg-white card-body pt-0">
+                                <p class="p-0 m-0 pt-1 text-dark text-truncate fw-semibold card-title"><small>Balkans<span
                                             class="text-secondary text-truncate"> Flip Cover for REDMI A4 5G, POCO C75
                                             5G, Redmi 14C 5G</span></small></p>
                                 <del class="text-secondary fw-medium">999</del> <span
@@ -1021,9 +1037,9 @@
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-4 bg-light">
-                            <a href="#" class="text-decoration-none">
-                                <div class="position-relative">
-                                    <img src="image/eightyone.webp" class=" img-fluid rounded-3">
+                            <a href="#" class="text-decoration-none card border-0 h-100">
+                                <div class="position-relative ">
+                                    <img src="image/eightyone.webp" class="card-img-top img-fluid rounded-3">
                                     <span
                                         class="position-absolute start-0 ms-2 mb-1 bottom-0 bg-white px-1 d-block rounded-3 text-dark fw-semibold">4.6<svg
                                             width="12" height="12" viewBox="0 0 24 24" fill="#0E772D"
@@ -1034,8 +1050,8 @@
                                                 stroke-linejoin="round"></path>
                                         </svg>(1,547)</span>
                                 </div>
-                                <div class="bg-white">
-                                <p class="p-0 m-0 pt-1 text-dark text-truncate fw-semibold"><small>OnePlus<span
+                                <div class="bg-white card-body pt-0">
+                                <p class="p-0 m-0 pt-1 text-dark text-truncate fw-semibold card-title"><small>OnePlus<span
                                             class="text-secondary text-truncate"> 12 (Glacial White, 256
                                             GB)</span></small></p>
                                 <del class="text-secondary fw-medium">64,999</del> <span
@@ -1045,12 +1061,12 @@
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-4 bg-light ">
-                            <a href="#" class="text-decoration-none">
-                                <div class="">
-                                    <img src="image/eightytwo.webp" class=" img-fluid rounded-3">
+                            <a href="#" class="text-decoration-none card border-0 h-100">
+                                <div class=" ">
+                                    <img src="image/eightytwo.webp" class="card-img-top img-fluid rounded-3">
                                 </div>
-                                <div class="bg-white">
-                                <p class="p-0 m-0 pt-1 text-dark text-truncate fw-semibold"><small><span
+                                <div class="bg-white card-body pt-0">
+                                <p class="p-0 m-0 pt-1 text-dark text-truncate fw-semibold card-title"><small><span
                                             class="text-secondary text-truncate"> Nazomi Tech Back Camera Lens Glass
                                             Protector for Xiaomi Redmi 14C</span></small></p>
                                 <del class="text-secondary fw-medium">599</del> <span
@@ -1060,9 +1076,9 @@
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-4 bg-light ">
-                            <a href="#" class="text-decoration-none">
-                                <div class="position-relative">
-                                    <img src="image/seventythree.webp" class=" img-fluid rounded-3">
+                            <a href="#" class="text-decoration-none card border-0 h-100">
+                                <div class="position-relative ">
+                                    <img src="image/seventythree.webp" class=" card-img-top img-fluid rounded-3">
                                     <span
                                         class="position-absolute start-0 ms-2 mb-1 bottom-0 bg-white px-1 d-block rounded-3 text-dark fw-semibold">4.1<svg
                                             width="12" height="12" viewBox="0 0 24 24" fill="#0E772D"
@@ -1073,8 +1089,8 @@
                                                 stroke-linejoin="round"></path>
                                         </svg>(3,17,277)</span>
                                 </div>
-                                <div class="bg-white">
-                                <p class="p-0 m-0 pt-1 text-dark text-truncate fw-semibold"><small> Tibra Attire<span
+                                <div class="bg-white card-body pt-0">
+                                <p class="p-0 m-0 pt-1 text-dark text-truncate fw-semibold card-title"><small> Tibra Attire<span
                                             class="text-secondary text-truncate"> Women Cotton Blend Kurti Pant Dupatta
                                             Set</span></small></p>
                                 <del class="text-secondary fw-medium">1,499</del> <span
@@ -1084,9 +1100,9 @@
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-4 bg-light">
-                            <a href="#" class="text-decoration-none">
-                                <div class="position-relative bg-light">
-                                    <img src="image/eightythree.webp" class=" img-fluid rounded-3">
+                            <a href="#" class="text-decoration-none card border-0 h-100">
+                                <div class="position-relative bg-light ">
+                                    <img src="image/eightythree.webp" class=" card-img-top img-fluid rounded-3">
                                     <span
                                         class="position-absolute start-0 bottom-0 bg-white px-1 ms-1 mb-1 d-block rounded-3 text-dark fw-semibold">4.5<svg
                                             width="12" height="12" viewBox="0 0 24 24" fill="#0E772D"
@@ -1097,8 +1113,8 @@
                                                 stroke-linejoin="round"></path>
                                         </svg>(927)</span>
                                 </div>
-                                <div class="bg-white">
-                                <p class="p-0 m-0 text-dark pt-1 text-truncate fw-semibold"><small>realme<span
+                                <div class="bg-white card-body pt-0">
+                                <p class="p-0 m-0 text-dark pt-1 text-truncate fw-semibold card-title"><small>realme<span
                                             class="text-secondary text-truncate"> 16 Pro+ 5G (Camellia Pink, 256
                                             GB)</span></small></p>
                                 <span class="text-dark fw-semibold">₹45,999</span>
@@ -1107,12 +1123,12 @@
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-4 bg-light ">
-                            <a href="#" class="text-decoration-none">
+                            <a href="#" class="text-decoration-none card border-0 h-100">
                                 <div class="">
-                                    <img src="image/eightytwo.webp" class=" img-fluid rounded-3">
+                                    <img src="image/eightytwo.webp" class=" img-fluid rounded-3 card-img-top">
                                 </div>
-                                <div class="bg-white">
-                                <p class="p-0 m-0 pt-1 text-dark text-truncate fw-semibold"><small><span
+                                <div class="bg-white card-body pt-0">
+                                <p class="p-0 m-0 pt-1 text-dark text-truncate fw-semibold card-title"><small><span
                                             class="text-secondary text-truncate"> Nazomi Tech Back Camera Lens Glass
                                             Protector for Xiaomi Redmi 14C</span></small></p>
                                 <del class="text-secondary fw-medium">599</del> <span
@@ -1122,12 +1138,12 @@
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-4 bg-light">
-                            <a href="#" class="text-decoration-none">
-                                <div class=" bg-light">
-                                    <img src="image/eightyfive.webp" class=" img-fluid rounded-3">
+                            <a href="#" class="text-decoration-none card border-0 h-100">
+                                <div class=" bg-light ">
+                                    <img src="image/eightyfive.webp" class="card-img-top img-fluid rounded-3">
                                 </div>
-                                <div class="bg-white">
-                                <p class="p-0 m-0 text-dark pt-1 text-truncate fw-semibold"><small>realme<span
+                                <div class="bg-white card-body pt-0">
+                                <p class="p-0 m-0 text-dark pt-1 text-truncate fw-semibold card-title"><small>realme<span
                                             class="text-secondary text-truncate">Nazomi Tech Back Camera Lens Glass
                                             Protector for Poco C75 5G</span></small></p>
                                 <del class="text-secondary fw-medium">599</del> <span
@@ -1136,34 +1152,7 @@
 
                             </a>
                         </div>
-                         <div class="col-lg-3 col-md-4 bg-light">
-                            <a href="#" class="text-decoration-none">
-                                <div class=" bg-light">
-                                    <img src="image/one hundred ten.webp" class=" img-fluid rounded-3">
-                                </div>
-                                <div class="bg-white">
-                                <p class="p-0 m-0 text-dark pt-1 text-truncate fw-semibold"><small>Spigen<span
-                                            class="text-secondary text-truncate">Back Cover for Samsung Galaxy F17 5G, Samsung Galaxy M17 5G, Samsung Galaxy A17 5G, Samsung Galaxy A17</span></small></p>
-                                <del class="text-secondary fw-medium">1,099</del> <span
-                                    class="text-dark fw-semibold">₹699</span>
-                                    </div>
-
-                            </a>
-                        </div>
-                          <div class="col-lg-3 col-md-4 bg-light">
-                            <a href="#" class="text-decoration-none">
-                                <div class=" bg-light">
-                                    <img src="image/one hundred eleven.webp" class=" img-fluid rounded-3">
-                                </div>
-                                <div class="bg-white">
-                                <p class="p-0 m-0 text-dark pt-1 text-truncate fw-semibold"><small>Doubledicestore<span
-                                            class="text-secondary text-truncate">Back Cover for Apple iPhone 13</span></small></p>
-                                <del class="text-secondary fw-medium">999</del> <span
-                                    class="text-dark fw-semibold">₹169</span>
-                                    </div>
-
-                            </a>
-                        </div>
+                       
                     </div>
 
                 </div>
@@ -1178,584 +1167,584 @@
         <section class="nine bg-light pt-5 mt-4 pb-2">
             <div class="container-fluid">
                 <div class="pt-1 px-lg-3">
-                    <h5 class="text-muted ">Top Stories: <a href="#" class="text-decoration-none text-muted "> Brand
+                    <h5 class="text-muted  pb-2">Top Stories: <a href="#" class="text-decoration-none text-muted "> Brand
                             Directory</a></h5>
                     <div class="">
 
                         <ul class="list-unstyled pb-0 d-flex flex-wrap column-gap-1 row-gap-0">
                             <span class=" text-uppercase  fw-normal">Most searched for on Flipkart:</span>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Ugadi Sale </small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark"><small
                                         class="text-secondary"> Apple iPhone 17e</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary"> Nothing 4a</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary"> POCO C85x</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary"> Nothing 4a Pro</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary"> Samsung S26 Series</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary"> Samsung Galaxy S26 5G</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary"> Samsung Galaxy S26 Plus 5G</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary"> Motorola Edge 70 Fusion</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Lumio Projectors</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark"><small
                                         class="text-secondary">Eid Sale</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Bags for Men | </small> </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark"><small
                                         class="text-secondary">Laptop Store</small> |
                                 </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Mixer Juicer Grinder</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark f"><small
                                         class="text-secondary">Men's Shoes</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Adidas Men's Shoes</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Boat Earbuds</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Body Lotion</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Campus Shoes</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Earphones</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Red Tape Shoes</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Men's Slippers</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Helmets</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Nike Shoes</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Puma Shoes</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Trimmers</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Vivo Phones</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Iqoo Phones</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Smartwatches</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Biscuits</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Women's Footwear</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Trolley Bags</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Water Bottles</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Men's Jackets</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Anarkali Suits</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Hoodies for Men</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Men's Watches</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Men's Winter Jackets</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Women's Watches</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Teddy Bears</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Premium Laptops</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Ray Ban Meta Smart Glasses</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Rings</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Earrings</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Airpods</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Urbn Power Banks</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">GoBoult Wireless Earphones</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Bose Soundbars</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Jewellery</small></a></li>
                         </ul>
 
                         <ul class="list-unstyled pb-0 d-flex flex-wrap column-gap-1 row-gap-0">
                             <a href="#" class="text-decoration-none text-dark">MOBILES</a>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">4G Mobiles</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Nokia Phones</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Samsung Mobiles</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Oppo Mobiles</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Apple Phones</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Realme Mobiles</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Nothing Phones</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">OnePlus Mobiles</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Blackberry Phones</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">POCO Mobiles</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Feature Mobile Phones</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Redmi Phones</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Motorola Mobiles</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Mobile Phones Under 10000</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Mobile Phones Under 15000</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Mobile Phones Under 20000</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Mobile Phones Under 25000</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">256 GB Mobiles</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">512 GB Mobiles</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">5.5 Inch Mobiles</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">5.5 Inch Mobiles</small> </a></li>
                         </ul>
 
                         <ul class="list-unstyled pb-0 d-flex flex-wrap column-gap-1 gy-0">
                             <a href="#" class="text-decoration-none text-dark">CAMERA</a>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Akaso Action Camera</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Nikon Cameras</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Canon Cameras</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Sony Cameras</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Instant Cameras</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">DSLR Mirrorless Cameras</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">GoPro Cameras</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Insta360 Cameras</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Drones</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Sports Action Cameras</small> </a></li>
                         </ul>
                         <ul class="list-unstyled pb-0 d-flex flex-wrap column-gap-1 row-gap-0">
                             <a href="#" class="text-decoration-none text-dark">LAPTOPS</a>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Apple Laptops</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Acer Laptops</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Lenovo Laptops</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Gaming Laptops</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Dell Laptops</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Asus Laptops</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">HP Laptops</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Samsung Laptops</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Laptops Under 50000</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Laptops Under 40000</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Laptops Under 30000</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">i5 Laptops</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">i7 Laptops</small> </a></li>
                         </ul>
                         <ul class="list-unstyled pb-0 d-flex flex-wrap column-gap-1 gy-0">
                             <a href="#" class="text-decoration-none text-dark">TVS</a>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">LG TVs</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Sony TVs</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Samsung TVs</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Mi TVs</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">LED TVs</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">OLED TVs</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Smart TVs</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Android TVs</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">4K TVs</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">8K TVs</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">LED TVs Under 15000</small>| </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Best TV Brands</small> </a></li>
                         </ul>
                         <ul class="list-unstyled pb-0 d-flex flex-wrap column-gap-1 row-gap-0">
                             <span>LARGE APPLIANCES</span>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Air Conditioners</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Air Coolers</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Microwave Ovens</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Air Fryers</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Refrigerators</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Washing Machines</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Water Purifiers</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Induction Stove</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Water Geyser</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Room Heaters</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">1.5 Ton ACs</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Dish Washers</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Electric Cookers</small> </a></li>
                         </ul>
 
                         <ul class="list-unstyled pb-0 d-flex flex-wrap column-gap-1 row-gap-0">
                             <a href="#" class="text-decoration-none text-dark">CLOTHING</a>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Sarees</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Lehengas</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Kurtas/Kurtis</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Ethnic Sets</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Women's Tops</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Women's Night Suits</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Women's Shirts</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Women's T-shirts</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Women's Jeans</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Gowns</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Women's Trousers</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Women's Sweaters</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Women's Hoodies</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Women's Jackets</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Casual Shirts</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Formal Shirts</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Men's T-shirts</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Men's Jeans</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Men's Trousers</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Men's Track pants</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Blazers</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Men's Sweatshirts</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Men's Sweaters</small> </a></li>
                         </ul>
 
                         <ul class="list-unstyled pb-0 d-flex flex-wrap column-gap-1 row-gap-0">
                             <span>Footwear</span>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Footwear</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Kids Footwear</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Men's Formal Shoes</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Men's Casual Shoes</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Men's Sneakers</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Sports Shoes</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Women's Sandals</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Women's Slippers & Flip Flops</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Heels</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Women's Sneakers</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Women's Sports Shoes</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Boys Shoes</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Girls Shoes</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Skechers Shoes</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Crocs</small> </a></li>
                         </ul>
 
                         <ul class="list-unstyled pb-0 d-flex flex-wrap column-gap-1 row-gap-0">
                             <a href="#" class="text-decoration-none text-dark">GROCERIES</a>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Staples</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark"><small
                                         class="text-secondary">Snacks & Beverages</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Packaged Foods</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Household Care</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Personal & Baby Care</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Masalas & Spices</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Dals & Pulses</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Ghee & Oils</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Dry Fruits, Nuts & Seeds</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Chips & Namkeens</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Cookies</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Noodles & Pasts</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Soft Drinks</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Chocolates & Sweets</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Repellants & Fresheners</small> </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Laundry Detergents</small> </a></li>
                         </ul>
                         <ul class="list-unstyled pb-0 d-flex flex-wrap column-gap-1 row-gap-0">
                             <a href="#" class="text-decoration-none text-dark">Best Selling on Flipkart</a>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Google Pixel 10a</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Infinix Note Edge</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Motorola Signature</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Oppo K14x 5G</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Oppo Reno 15 Pro</small> </a>|</li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Vivo V70</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Chocolate Horlicks</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Minimalist Face Cleanser</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Garnier Vitamin C Face Serum</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Motorola LED Smart Google TV</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Simple Face Wash (Pack of 2)</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Mamaearth Anti Hair Fall Shampoo</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Whirlpool Semi Automatic Top Load Washing Machine (7.5kg,
                                         Black Grey)</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Campus Running Shoes</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">LG Convection Microwave Oven</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Goboult Y1 Pro Bluetooth</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Fastrack Analog Metal Strap Watch</small>| </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Vivo V50 5G (256GB,Titanium Grey)</small>| </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Puma Running Shoes</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Asus Vivobook Laptop</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Kent Grand LED Water Purifier</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">V-Guard 400 5 ton AC</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Boat Bluetooth Airdopes</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Realme C71 (128GB,Obsidian Black)</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Oneplus Nord Bluetooth Buds</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Derma Co 2%Kojic Acid Face Serum</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Apple iPhone 17 (256GB,Black)</small>| </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark"><small
                                         class="text-secondary">Apple iPhone 16 Pro (128GB,Natural Titanium)</small> |
                                 </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Nothing Phone 3a (128GB,Black)</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Apple iPhone 16 (128GB,White)</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Poco X7 Pro 5G (256GB,Obsidian Black)</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Samsung Galaxy S24 Ultra 5G (256GB,Titanium
                                         Black)</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Apple iPhone 17 Pro (256GB,Cosmic Orange)</small>| </a>
                             </li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Iqoo Neo 10R5G (128GB,Raging Blue)</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Oppo F31 Pro 5G (128GB,Space Grey)</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Samsung Galaxy S25 Ultra 5G (1024GB,Titanium
                                         Silverblue)</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Oneplus 15 5G (256GB,Sand Storm)</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Oneplus 15 5G (256GB,Sand Storm)</small> </a></li>
                         </ul>
 
                         <ul class="list-unstyled pb-0 d-flex flex-wrap column-gap-1 row-gap-0">
                             <a href="#" class="text-decoration-none text-dark">FURNITURE</a>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Furniture Store</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Beds</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Dining Table Sets</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Wardrobes</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">TV Units & Cabinets</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Office & Study Chairs</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Office & Study Tables</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Sofa Sets</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Mattress</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Sofa Beds</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Shoe Racks</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Dressing Tables</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Home Temples</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Kitchen Cabinets</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">King Size Beds</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Queen Size Beds</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Men's T-shirts</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Men's Jeans</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Men's Trousers</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Men's Track pants</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Blazers</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Men's Sweatshirts</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Men's Sweaters</small> </a></li>
                         </ul>
                         <ul class="list-unstyled pb-0 d-flex flex-wrap column-gap-1 row-gap-0">
                             <a href="#" class="text-decoration-none text-dark">BGMH:</a>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">NCERT Books</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Toys Online Store</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Pens & Stationery</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Beauty And Grooming</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Makeup Kits</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Body, Face & Skin Care</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Perfumes</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Books Online Store</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Automotive Accessories</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Car Accessories</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Bike Accessories</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Food Products</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Health Care</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Health Supplements</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Sports Equipment</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Exercise & Fitness Accessories</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Baby Care</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">HouseHold Supplies</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Home Cleaning & Bathroom Accessories</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Home Decor</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Home Improvement Tools</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Kitchen Cookware & Serveware</small> |</a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Wallpapers</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Home Furnishings</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Wall Decor</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Tableware & Dinnerware</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Cookware Sets</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Bed Linen & Blankets</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Cushions & Pillows</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Curtains</small> | </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark fw-medium"><small
+                            <li><a href="#" class="text-decoration-none text-dark "><small
                                         class="text-secondary">Festive Decor & Gifting</small> </a></li>
                         </ul>
 
@@ -2006,9 +1995,9 @@
     <footer class="">
         <section class="bg-dark pt-md-2 ">
             <div class="container-fluid">
-                <div class="row px-md-5 pt-4 pb-4 border-bottom border-secondary">
+                <div class="row px-xl-5 px-lg-3 pt-4 pb-4 border-bottom border-secondary">
                     <div class="col-xl-7">
-                        <div class="d-flex gap-md-5 gap-3 flex-md-row flex-column border-end border-secondary">
+                        <div class="d-flex gap-md-5 gap-3 flex-md-row flex-column border-end-lg border-secondary">
                             <div>
                                 <h6 class="text-secondary fw-normal"><small>ABOUT</small></h6>
                                 <ul class="list-unstyled px-0">
@@ -2106,7 +2095,7 @@
 
                     </div>
                 </div>
-                <div class="d-flex px-md-5 pt-4 justify-content-between pb-4 flex-wrap gap-4">
+                <div class="d-flex px-xl-5 px-lg-3  pt-4 justify-content-between pb-4 flex-wrap gap-4">
                     <div>
                         <img src="image/ninety.svg" class="img-fluid">
                         <a href="#" class="text-decoration-none ps-1 text-white">Become a Seller</a>
